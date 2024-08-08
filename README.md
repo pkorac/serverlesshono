@@ -6,6 +6,7 @@ No Next.js, no extra stuff.
 
 ## Not on Edge
 Deployign to edge is not always an option – for example when using drizzle and connecting to postgress, the javascript libraries need the nodejs apis.
+
 In this case you will need to deploy on "classic" serverless function instead.
 
 
