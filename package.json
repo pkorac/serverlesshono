@@ -1,0 +1,15 @@
+{
+	"name": "serverlesshono",
+	"type": "module",
+	"scripts": {
+		"start": "vercel dev",
+		"deploy": "vercel"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.12.0",
+		"hono": "^4.5.4"
+	},
+	"devDependencies": {
+		"vercel": "^32.4.1"
+	}
+}
