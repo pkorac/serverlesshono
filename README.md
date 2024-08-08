@@ -1,7 +1,8 @@
 # NodeJS Severless Hono on Vercel
 
-This is a süper simple example of a **nodejs** hono API on vercel.
+This is a simple example of a hono API using **nodejs serverless functions** instead of edge for deployment on vercel.
 No Next.js, no extra stuff.
+
 
 ## Not on Edge
 Deployign to edge is not always an option – for example when using drizzle and connecting to postgress, the javascript libraries need the nodejs apis.
