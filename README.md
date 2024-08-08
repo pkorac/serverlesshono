@@ -5,14 +5,14 @@ No Next.js, no extra stuff.
 
 
 ## Not on Edge
-Deployign to edge is not always an option – for example when using drizzle and connecting to postgress, the javascript libraries need the nodejs apis.
+Deployign to edge is not always an option. For example when using drizzle to connect to a  postgres database – the javascript library need the nodejs apis.
 
 In this case you will need to deploy on "classic" serverless function instead.
 
 
 ## Deployment settings/config
 
-I've used the default hono/vercel template and channged/added the following things:
+I've used the default hono/vercel template when creating the project and then channged/added the following things:
 
 
 Package.json
