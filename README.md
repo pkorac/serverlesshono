@@ -49,3 +49,7 @@ and then remove the .basePath from my index.ts so it looks like this:
 ```ts
 const app = new Hono();
 ```
+
+Have fun,
+Peter Koraca
+[Createive Crow](https://www.creativecrow.io)
