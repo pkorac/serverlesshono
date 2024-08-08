@@ -47,7 +47,7 @@ I wanted to serve my api from `mydomain.com/` instead of `mydomain.com/api/`, so
 	]
 }
 ```
-and then remove the .basePath from my index.ts so it looks like this:
+and then remove the basePath() from my index.ts so it looks like this:
 ```ts
 const app = new Hono();
 ```
