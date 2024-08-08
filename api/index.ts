@@ -4,7 +4,11 @@ import { handle } from "@hono/node-server/vercel";
 const app = new Hono();
 
 app.get("/", (c) => {
-	return c.json({ message: "Hello Hono!" });
+	return c.text("Hello, Vercel!");
+});
+
+app.get("/hello/:name", (c) => {
+	return c.text(`Hello, ${c.req.param("name")}!`);
 });
 
 export default handle(app);
