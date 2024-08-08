@@ -1,4 +1,21 @@
+
+# Severless Hono
+on vercel
+
+
+Running
+```bash
+vercel dev
 ```
-npm install
-npm run start
+
+Package.json
+```json
+{
+	"type": "module", … 
+}
+```
+
+.env file
+```bash
+NODEJS_HELPERS=0
 ```
